@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#F5FFFA] pt-16 dark:bg-[#292929];
+  }
+}
+
+@layer components {
+  .section-wrap {
+    @apply mt-12 sm:mt-14;
+  }
+  .section-title {
+    @apply text-xl font-semibold sm:text-[22px] dark:text-[#F5FFFA];
+  }
+  .section-subTitle {
+    @apply font-semibold mt-5 sm:text-[17px] dark:text-[#F5FFFA];
+  }
+}
